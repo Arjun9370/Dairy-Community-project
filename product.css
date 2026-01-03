@@ -1,0 +1,25 @@
+/* Milk Quality Table */
+.milk-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.milk-table th, .milk-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.milk-table th {
+    background-color: #4caf50;
+    color: white;
+}
+
+.milk-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.milk-table tr:hover {
+    background-color: #f1f1f1;
+}

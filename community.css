@@ -1,0 +1,6 @@
+/* Community page custom image size */
+.community-gallery img {
+    width: 250px;   /* wider images */
+    height: 180px;  /* proportional height */
+    object-fit: cover;
+}
